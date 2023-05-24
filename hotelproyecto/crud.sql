@@ -1,5 +1,5 @@
-create database crud;
-use crud;
+create database defaultdb;
+use defaultdb;
 
 create table cliente(
 	id int auto_increment primary key,
