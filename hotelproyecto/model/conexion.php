@@ -5,7 +5,7 @@ $nombre_bd = "defaultdb";
 
 try {
 	$bd = new PDO (
-		'db-mysql-nyc1-28475-do-user-14089120-0.b.db.ondigitalocean.com;
+		'mysql:host=db-mysql-nyc1-28475-do-user-14089120-0.b.db.ondigitalocean.com;
 		dbname='.$nombre_bd,
 		$usuario,
 		$contrasena,
