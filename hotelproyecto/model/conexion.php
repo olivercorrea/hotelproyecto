@@ -11,6 +11,8 @@ try {
 		$contrasena,
 		array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8")
 	);
+	// Cierra la conexión a la base de datos
+	$bd = null;
 } catch (Exception $e) {
 	echo "Problema con la conexion: ".$e->getMessage();
 }
